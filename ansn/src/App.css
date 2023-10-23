@@ -1,0 +1,236 @@
+body {
+    overflow-x: hidden;
+}
+
+.nav-top {
+    height: 50px;
+    width: 100vw;
+
+}
+
+.nav-top .status {
+    height: 30px;
+    background-color: rgba(227, 227, 227, 0.871);
+}
+
+.nav-bottom {
+    width: 100vw;
+}
+
+.nav-bottom ul {
+    position: relative;
+
+}
+
+.nav-bottom ul li {
+    list-style: none;
+    padding-top: 10px;
+
+}
+
+.nav-bottom ul li a {
+    text-decoration: none;
+
+    padding-left: 20px;
+    color: black;
+    text-transform: capitalize;
+    font-size: 14px;
+
+}
+
+.nav-bottom ul li a:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+
+}
+
+.nav-bottom {
+    background-color: rgba(227, 227, 227, 0.871);
+    position: relative;
+    height: 40px;
+}
+
+.social i {
+    margin-left: 10px;
+}
+
+.nav-icons {
+    display: flex;
+    position: absolute;
+    right: 0px;
+
+    width: 200px;
+}
+
+s .nav-icons i {
+    font-size: 20px;
+    margin: 10px;
+    color: black;
+}
+
+/* breacking news--------------- */
+.breaking-news {
+    display: flex;
+    height: 30px;
+    width: 90%;
+
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.breack-teg {
+
+    width: 150px;
+    margin-left: 30px;
+    white-space: nowrap;
+    color: white;
+
+    border-radius: 10px;
+    text-transform: capitalize;
+
+    background-color: red;
+}
+
+.breaking-news-text {
+    color: white;
+
+}
+
+/* all use  */
+.headline {
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: relative;
+    left: 50px;
+}
+
+/*  */
+
+/* Hero.css */
+.hero {
+
+    height: 350px;
+    justify-content: center;
+    align-content: center;
+
+    display: flex;
+}
+
+.hero-items1 {
+    background: #3f51b5;
+    color: white;
+    height: 100%;
+    width: 50%;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.hero-mini {
+    display: flex;
+    height: 100%;
+    width: 30%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-items2,
+.hero-items3 {
+    background: #2196f3;
+    color: white;
+    width: 100%;
+    /* Adjust as needed */
+    margin: 5px;
+    height: 90%;
+}
+
+.hero-items2 {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hero-items3 {
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+/* section start----------------------------------------------------------- */
+
+.section {
+    height: auto;
+    width: 100vw;
+    display: flex;
+
+}
+
+.left {
+    height: 400px;
+    width: 20%;
+    position: static;
+
+}
+
+.mid {
+    height: auto;
+    width: 60%;
+
+}
+
+.right {
+    width: 20%;
+
+}
+
+/* top section=-------------------- */
+.top-sections {
+    height: 500px;
+
+
+}
+
+.top1 {
+    height: 50%;
+    display: flex;
+
+}
+
+.top1 .mcard {
+
+    height: 80px;
+   
+    margin-left: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: justify;
+    border-bottom: 1px solid black;
+}
+
+.top2 {
+    height: 50%;
+    display: grid;
+   
+
+    
+}
+.macard2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+.mcard-2{
+    display: flex;
+ 
+}
+.macard2 img{
+    height: 100%;
+    width: 150px;
+}
+.mcard-2 p{
+    font-size: 15px;
+}
